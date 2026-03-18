@@ -1,0 +1,37 @@
+name: sea-ice
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9
+  - asf_search
+  - beautifulsoup4
+  - cartopy>=0.23
+  - fiona
+  - gdal
+  - geopandas>=0.14
+  - h5py
+  - jupyterlab
+  - leafmap
+  - matplotlib
+  - networkx
+  - numpy
+  - pandas>=2.0
+  - pillow
+  - prettytable
+  - proj
+  - psycopg2
+  - pyproj
+  - rasterio
+  - requests
+  - rtree
+  - scikit-image
+  - scikit-learn
+  - scipy
+  - shapely>=2.0
+  - sqlalchemy
+  - tqdm
+  - aria2
+  - pip
+  - pip:
+    - git+https://github.com/JPLSeaIce/RGPSPy.git
