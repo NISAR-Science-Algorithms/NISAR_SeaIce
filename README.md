@@ -19,12 +19,10 @@ conda activate sea-ice
 
 This installs all dependencies including [RGPSPy](https://github.com/JPLSeaIce/RGPSPy).
 
-### 3. Unzip RGPSPy grid files
+### 3. Unzip motion grid files
 
 ```bash
-cd $(python -c "import combined; import os; print(os.path.dirname(combined.__file__))")
-cd ../core/mvgrid
-unzip '*.zip'
+unzip 'motion_grids/*.zip' -d motion_grids/
 ```
 
 ### 4. Configure Earthdata credentials
